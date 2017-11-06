@@ -1,0 +1,94 @@
+body{
+  background-color:black;
+  text-align: center;
+  font-family:Helvetica;
+  color:seashell;
+  opacity:0.9px;
+}
+.header{
+  display:flex;
+  flex-direction:row;
+  position:fixd;
+  align-items:center;
+  justify-content:space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+.box_1A{
+  display:flex;
+  margin-left:10px;
+  height:50px;
+}
+.box_1B{
+  flex:inline-flex;
+}
+
+.box_1B span{
+  font-size:22px;
+  text-decoration: underline;
+  margin:15px;
+}
+
+#mission{
+  background-color: black;
+  width:1200px;
+  margin:auto;
+}
+.box_2{
+  background-image: url("./img-mission-background.jpg");
+  display:flex;
+  flex-direction:row;
+  height:700px;
+  width:1200px;
+  margin:auto;
+}
+.box_3{
+  display:flex;
+  flex-direction:row;
+  width:1000px;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  margin:auto;
+}
+.box_3A{
+  margin-bottom:10px;
+}
+
+#tea{
+  margin:60px auto 15px auto;
+}
+.box_location{
+  background-image: url("./img-locations-background.jpg");
+  /* height:600px;*/
+  padding:60px 0px 170px 0px;
+  width:1200px;
+  margin:60px auto 5px auto;
+}
+#location{
+  margin:auto;
+}
+.box_4{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.add_margin{
+  margin:0 20px;
+  background-color:black;
+  width:270px;
+  height:270px;
+}
+
+.add_margin h2{
+  padding:5px;
+}
+
+.box_5{
+  height:200px;
+  padding:15px;
+}
+.footnote{
+  font-size:22px;
+  text-align:left;
+  margin-left:20px;
+}
